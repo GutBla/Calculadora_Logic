@@ -1,0 +1,123 @@
+body {
+  background-color: #222831; /* Color de fondo */
+  color: #EEEEEE; /* Color de texto */
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Alto completo de la ventana */
+  margin: 0;
+}
+
+.roboto-thin {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.container {
+  background-color: #31363F; /* Color del cuadro */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center; /* Alinear contenido al centro */
+}
+
+button {
+  background-color: #929AAB; /* Color de los botones */
+  color: #222831; /* Color del texto en los botones */
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #CACACA; /* Color de los botones al pasar el ratón */
+}
+
+.verdadero {
+  background-color: #A1DD70;
+}
+
+.falso {
+  background-color: #EE4E4E;
+}
+
+textarea {
+  width: calc(100% - 120px); /* Ajustar el tamaño para dejar espacio para los botones */
+  height: 100px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #76ABAE;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.button-group button {
+  margin: 5px 0;
+}
+
+.letras-container {
+  margin-top: 20px;
+}
+
+.letras-container button {
+  margin: 5px;
+}
+
+.formula-container {
+  display: flex;
+  align-items: flex-start; /* Alinear elementos al inicio del contenedor */
+  margin-bottom: 10px;
+}
+
+.formula-container textarea {
+  flex: 1;
+}
+
+.formula-container button {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
